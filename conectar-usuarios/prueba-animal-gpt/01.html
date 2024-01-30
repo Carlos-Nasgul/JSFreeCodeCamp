@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02-css">
+    <title>Mi Página Web</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a mi página web</h1>
+    </header>
+
+    <main>
+        <div class="content">
+            <h2>Comentarios</h2>
+            <form action="/submit-form" method="post">
+                <div>
+                    <label for="comments">Comentarios:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <section class="animal-photos">
+            <h2>Fotos de animales</h2>
+            <img src="animal1.jpg" alt="Animal 1">
+            <img src="animal2.jpg" alt="Animal 2">
+            <img src="animal3.jpg" alt="Animal 3">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2022 Mi Página Web</p>
+    </footer>
+</body>
+
+</html>

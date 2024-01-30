@@ -1,0 +1,19 @@
+body {
+    background-color: red;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.animal-photos {
+    margin-top: 20px;
+}
+
+.content {
+    padding: 20px;
+}

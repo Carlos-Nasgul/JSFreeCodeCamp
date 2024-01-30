@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compartir Viajes</title>
+    <link rel="stylesheet" href="02-yake.css">
+    <script src="03-yake.js"></script>
+
+</head>
+
+<body>
+    <h1>Compartir Viajes</h1>
+    <form id="travel-form">
+        <input type="text" id="origin" placeholder="Origen">
+        <input type="text" id="destination" placeholder="Destino">
+        <input type="date" id="date" placeholder="Fecha">
+        <button onclick="publishTravel()">Publicar Viaje</button>
+    </form>
+
+    <h2>Viajes Disponibles</h2>
+    <ul id="travel-list">
+        <!-- Aquí se mostrarán los viajes disponibles -->
+        <li><button>Sevilla-Cazalla</button></li>
+        <li><button>Cazalla-Sevilla</button></li>
+        <li><button>Sanlucar la Mayor- Sevilla</button></li>
+    </ul>
+
+</body>
+
+</html>
